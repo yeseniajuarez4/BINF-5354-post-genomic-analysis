@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import numpy as np
 import time
+=======
+>>>>>>> 93bf168a30a9d295acb8b2c26984180c2c85dbd0
 def matrix_multiply(A, B):
     #dimension check
     if len(A[0]) != len(B):
@@ -22,6 +25,7 @@ def matrix_multiply(A, B):
 
 A = [[1,2], [3,4],[6,7]]
 B = [[5,6], [7,8]]
+<<<<<<< HEAD
 start_time = time.perf_counter()
 func_product = matrix_multiply(A,B)
 end_time = time.perf_counter()
@@ -41,3 +45,8 @@ elapsed_time = end_time - start_time
 print(np_product)
 print(f"Numpy elpased time {elapsed_time}")
 
+=======
+print(matrix_multiply(A,B))
+
+
+>>>>>>> 93bf168a30a9d295acb8b2c26984180c2c85dbd0
