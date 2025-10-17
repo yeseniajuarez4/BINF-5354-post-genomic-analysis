@@ -1,4 +1,4 @@
-# Inputs (set these paths):
+# Inputs
 NORMAL_PATH = "/Users/yeseniajuarez/Documents/genomic_analysis/Homework_3/normal_merged.csv"
 TUMOR_PATH  = "/Users/yeseniajuarez/Documents/genomic_analysis/Homework_3/tumor_merged.csv"
 
